@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        body {
+            font-size: 100%;
+            background: linear-gradient(0deg, #242234, #242234), linear-gradient(180deg, #1C0D3A 0%, rgba(59, 13, 242, 0.46) 100%);
+            width: 100%;
+            height: 63vh;
+        }
+        
+        .cabecalho {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 22px;
+        }
+        
+        .cabecalho-imagem {
+            height: 72px;
+        }
+        
+        .cabecalho-menu {
+            display: flex;
+            gap: 32px;
+        }
+        
+        .cabecalho-menu-item {
+            font-family: 'Fredoka', sans-serif;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        
+        .conteudo {
+            margin-bottom: 48px;
+            border-top: 0.4px solid #8A51FA;
+        }
+        
+        .conteudo-principal {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .conteudo-principal-escrito {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+        
+        .conteudo-principal-escrito-titulo {
+            font-family: 'Anton', sans-serif;
+            font-weight: 300;
+            font-size: 54px;
+            color: #FFFFFF;
+        }
+        
+        .conteudo-principal-escrito-subtitulo {
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 300;
+            color: #FFFFFF;
+            font-size: 24px;
+        }
+        
+        .conteudo-principal-escrito-botao {
+            background: linear-gradient(180deg, #140F27 0%, rgba(27, 11, 60, 0.92) 100%, rgba(26, 17, 44, 0) 100%);
+            width: 180px;
+            height: 60px;
+            border: none;
+            border-radius: 20px;
+            font-family: 'Anton', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+        }
+        
+        .conteudo-principal-escrito-botao:hover {
+            background-color: rgba(236, 214, 196, 0.53);
+            width: 181px;
+            height: 61px;
+            font-size: 21px;
+        }
+        
+        .conteudo-principal-imagem {
+            padding: 20px;
+            width: 314px;
+        }
+        
+        .conteudo-secundario {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            margin-top: 48px;
+        }
+        
+        .conteudo-secundario-titulo {
+            border-top: 1px solid #8A52FA;
+            padding-top: 40px;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 400;
+            color: #FFFFFF;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .conteudo-secundario-paragrafo {
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 400;
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+        
+        .rodape {
+            padding: 22px;
+            border-top: 1px solid #8A52FA;
+        }
+        
+        .rodape-imagem {
+            height: 38px;
+            display: block;
+            margin: 0 auto;
+        }
